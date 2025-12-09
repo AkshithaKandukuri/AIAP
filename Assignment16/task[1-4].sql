@@ -1,7 +1,7 @@
 /* AIPP ASSIGNMENT - 16 
-Date: 8/12/2025
-NAME: K Akshitha
-HALL TICKET NO.: 2503B04202
+Date: 9/12/2025
+NAME: Kandukuri Akshitha
+HALL TICKET NO.: 2505B04202
 */
 
 --TASK 1
@@ -73,4 +73,5 @@ DELETE FROM Members
 WHERE member_id = 3;
 
 SELECT * FROM Loans
+
 WHERE member_id = 3 AND return_date IS NULL;
